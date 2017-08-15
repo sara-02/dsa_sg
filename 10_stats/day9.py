@@ -94,6 +94,7 @@ def getMatrixInverse(m):
 
 
 def main():
+    print "\n"
     X = [[1, 0.18, 0.89],
          [1, 1.0, 0.26],
          [1, 0.92, 0.11],
@@ -122,6 +123,7 @@ def main():
     B = multiply(R3, Y)
     Y1 = multiply(X1, B)
     print(Y1)
+    print"\n"
 
 
 if __name__ == '__main__':
